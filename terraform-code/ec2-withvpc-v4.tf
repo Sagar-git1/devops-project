@@ -2,7 +2,7 @@ provider "aws" {
   region = "us-east-1"
 }
 resource "aws_instance" "demoserver" {
-  ami = "ami-0bb4c991fa89d4b9b"
+  ami = "ami-053b0d53c279acc90"
   instance_type = "t2.micro"
   key_name = "name:redhat"
   //security_groups = ["ssh_sg"]
